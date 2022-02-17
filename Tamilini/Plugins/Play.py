@@ -135,7 +135,7 @@ async def play(_, message: Message):
         )
 
 
-@app.on_callback_query(filters.regex(pattern=r"Yukki"))
+@app.on_callback_query(filters.regex(pattern=r"Tamilini"))
 async def startyuplay(_, CallbackQuery):
     if CallbackQuery.message.chat.id not in db_mem:
         db_mem[CallbackQuery.message.chat.id] = {}
