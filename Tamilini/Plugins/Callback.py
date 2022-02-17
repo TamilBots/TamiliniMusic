@@ -478,7 +478,7 @@ async def check_playlist(_, CallbackQuery):
         await CallbackQuery.answer()
         await CallbackQuery.message.delete()
         msg = f"Fetched Playlist:\n\n"
-        for shikhar in _playlist:
+        for TamilBots in _playlist:
             j += 1
             _note = await get_playlist(user_id, TamilBots, genre)
             title = _note["title"]
