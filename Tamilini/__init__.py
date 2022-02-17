@@ -27,7 +27,7 @@ MOD_NOLOAD = []
 
 ### Mongo DB
 MONGODB_CLI = Bot(mango)
-db = MONGODB_CLI.Yukki
+db = MONGODB_CLI.Tamilini
 pymongodb = ""
 
 ### Boot Time
