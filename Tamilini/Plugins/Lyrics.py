@@ -52,10 +52,13 @@ async def lyricssex(_, CallbackQuery):
     usr = f"[{CallbackQuery.from_user.first_name}](tg://user?id={userid})"
     xxx = f"""
 **Lyrics Search Powered By {MUSIC_BOT_NAME}**
+
 **Searched By:-** {usr}
 **Searched Song:-** __{title}__
+
 **Found Lyrics For:-** __{S.title}__
 **Artist:-** {S.artist}
+
 **__Lyrics:__**
 {S.lyrics}"""
     if len(xxx) > 4096:
@@ -86,9 +89,11 @@ async def lrsearch(_, message: Message):
         return await m.edit("Lyrics not found :p")
     xxx = f"""
 **Lyrics Search Powered By {MUSIC_BOT_NAME}**
+
 **Searched Song:-** __{query}__
 **Found Lyrics For:-** __{S.title}__
 **Artist:-** {S.artist}
+
 **__Lyrics:__**
 {S.lyrics}"""
     if len(xxx) > 4096:
