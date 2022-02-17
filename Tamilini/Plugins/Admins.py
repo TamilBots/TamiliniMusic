@@ -76,7 +76,7 @@ async def admins(_, message: Message):
         if not await is_music_playing(message.chat.id):
             return await message.reply_text("Music is already Paused.")
         await music_off(chat_id)
-        await Yukki.pytgcalls.pause_stream(chat_id)
+        await Tamilini.pytgcalls.pause_stream(chat_id)
         await message.reply_text(
             f"🎧 Voicechat Paused by {message.from_user.mention}!"
         )
@@ -84,7 +84,7 @@ async def admins(_, message: Message):
         if await is_music_playing(message.chat.id):
             return await message.reply_text("Music is already Playing.")
         await music_on(chat_id)
-        await Yukki.pytgcalls.resume_stream(message.chat.id)
+        await Tamilini.pytgcalls.resume_stream(message.chat.id)
         await message.reply_text(
             f"🎧 Voicechat Resumed by {message.from_user.mention}!"
         )
