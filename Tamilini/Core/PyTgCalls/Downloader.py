@@ -2,7 +2,7 @@ from os import path
 
 from yt_dlp import YoutubeDL
 
-from Yukki import MUSIC_BOT_NAME
+from Tamilini import MUSIC_BOT_NAME
 
 ytdl = YoutubeDL(
     {
