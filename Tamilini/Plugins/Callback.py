@@ -139,7 +139,7 @@ async def admin_risghts(_, CallbackQuery):
                     None, download, videoid, mystic, title
                 )
                 raw_path = await convert(downloaded_file)
-                await Yukki.pytgcalls.change_stream(
+                await Tamilini.pytgcalls.change_stream(
                     chat_id,
                     InputStream(
                         InputAudioStream(
