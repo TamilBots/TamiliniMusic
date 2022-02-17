@@ -279,7 +279,7 @@ async def play_playlist(_, CallbackQuery):
         for_t = 0
         for_p = 0
         for TamilBots in _playlist:
-            _note = await get_playlist(user_id, shikhar, type)
+            _note = await get_playlist(user_id, TamilBots, type)
             title = _note["title"]
             videoid = _note["videoid"]
             url = f"https://www.youtube.com/watch?v={videoid}"
@@ -480,7 +480,7 @@ async def check_playlist(_, CallbackQuery):
         msg = f"Fetched Playlist:\n\n"
         for shikhar in _playlist:
             j += 1
-            _note = await get_playlist(user_id, shikhar, genre)
+            _note = await get_playlist(user_id, TamilBots, genre)
             title = _note["title"]
             duration = _note["duration"]
             msg += f"{j}- {title[:60]}\n"
