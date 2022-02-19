@@ -22,4 +22,4 @@ async def check_theme(chat_id: int):
         theme = _theme["theme"]
         if theme == "Random":
             theme = random.choice(themes)
-    return 
+    return theme
