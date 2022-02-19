@@ -71,15 +71,15 @@ async def initiate_bot():
     with console.status(
         "[magenta] Booting up Tamilini Music...",
     ) as status:
-        console.print("┌ [red]Booting Up The Clients...\n")
+        console.print("╭─⊸➢ [red]Booting Up The Clients...\n")
         await app.start()
         await userbot.start()
-        console.print("└ [green]Clients Booted Successfully!")
+        console.print("╰─⊸➢ [green]Clients Booted Successfully!")
         initial = await startup_send_new("Starting Tamilini Music...")
         await asyncio.sleep(0.5)
         all_over = await startup_send_new("Checking Required Directories...")
         console.print(
-            "\n┌ [red]Checking the existence of Required Directories..."
+            "\n╭─⊸➢ [red]Checking the existence of Required Directories..."
         )
         if "raw_files" not in listdir():
             mkdir("raw_files")
@@ -89,20 +89,20 @@ async def initiate_bot():
             mkdir("cache")
         if "search" not in listdir():
             mkdir("search")
-        console.print("└ [green]Directories Updated!")
+        console.print("╰─⊸➢ [green]Directories Updated!")
         okbhai = await startup_edit_last(all_over, "Checking Database...")
         await asyncio.sleep(2)
-        console.print("\n┌ [red]Checking the existence of Database...")
+        console.print("\n╭─⊸➢ [red]Checking the existence of Database...")
         if mango == "":
             status.update(status="[bold red] Failed to boot Tamilini Music!")
             console.print(
                 "[bold yellow]\nWARNING! DATABASE URL NOT FOUND!!\n\nExiting all processes with SIGTERM..."
             )
             return
-        console.print("├ [green]Database found!")
+        console.print("├─⊸ [green]Database found!")
         __ = await startup_edit_last(okbhai, "Validating Database...")
         await asyncio.sleep(0.7)
-        console.print("├ [yellow]Validating Database...")
+        console.print("├─⊸ [yellow]Validating Database...")
         if not mango.endswith("=majority"):
             status.update(status="[bold red] Failed to boot Tamilini Music!")
             console.print(
@@ -130,10 +130,10 @@ async def initiate_bot():
                 "[bold yellow] I hate it to say but something is wrong with your database url :(\ntry rechecking it or replace it with a new one.\n\nExiting all processes with SIGTERM..."
             )
             return
-        console.print("└ [green]Database Validation Successful!")
+        console.print("╰─⊸➢ [green]Database Validation Successful!")
         await asyncio.sleep(0.9)
         ___ = await startup_edit_last(__, "Refurbishing Necessary Data...")
-        console.print("\n┌ [red]Refurbishing Necessities...")
+        console.print("\n╭─⊸➢  [red]Refurbishing Necessities...")
         getme = await app.get_me()
         getme1 = await userbot.get_me()
         BOT_ID = getme.id
@@ -150,10 +150,10 @@ async def initiate_bot():
         )
         ASSUSERNAME = getme1.username
         ASSMENTION = getme1.mention
-        console.print("└ [green]Refurbished Successfully!")
+        console.print("╰─⊸➢ [green]Refurbished Successfully!")
         await asyncio.sleep(0.9)
         ____ok = await startup_edit_last(___, "Loading Sudo Users...")
-        console.print("\n┌ [red]Loading Sudo Users...")
+        console.print("\n╭─⊸➢  [red]Loading Sudo Users...")
         sudoersdb = pymongodb.sudoers
         sudoers = sudoersdb.find_one({"sudo": "sudo"})
         sudoers = [] if not sudoers else sudoers["sudoers"]
@@ -167,7 +167,7 @@ async def initiate_bot():
                 )
         SUDOERS = (SUDOERS + sudoers + OWNER_ID) if sudoers else SUDOERS
         await asyncio.sleep(1)
-        console.print("└ [green]Loaded Sudo Users Successfully!\n")
+        console.print("╰─⊸➢ [green]Loaded Sudo Users Successfully!\n")
         await startup_delete_last(____ok)
         await startup_delete_last(initial)
 
