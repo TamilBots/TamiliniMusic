@@ -5,7 +5,7 @@ from Tamilini.Database import (_get_authusers, add_nonadmin_chat,
                             delete_authuser, get_authuser, get_authuser_count,
                             get_authuser_names, is_nonadmin_chat,
                             remove_nonadmin_chat, save_authuser)
-from Tamili.Utilities.changers import int_to_alpha
+from Tamilini.Utilities.changers import int_to_alpha
 
 
 def AdminRightsCheck(mystic):
