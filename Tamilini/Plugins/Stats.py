@@ -161,7 +161,7 @@ async def stats_markup(_, CallbackQuery):
 
 **Mongo Uptime:** {mongouptime[:4]} Days
 **Version:** {mver}
-**Database:** Tamilini
+**Database:** {database}
 **Provider:** {provider}
 **DB Size:** {datasize[:6]} Mb
 **Storage:** {storage} Mb
