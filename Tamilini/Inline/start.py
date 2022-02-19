@@ -10,7 +10,7 @@ def start_pannel():
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="🗂 Helper Commands Menu", callback_data="Tamilini"
+                    text="🗂 Helper Commands Menu", callback_data="TamilBots"
                 ),
             ],
             [
