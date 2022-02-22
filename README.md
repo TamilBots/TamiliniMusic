@@ -5,12 +5,12 @@
 Before clicking on deploy to heroku just click on fork and star just below
 
 <p align="center">
-  <a href="https://github.com/TamilBots/TamiliniVcMusic/fork">
-    <img src="https://img.shields.io/github/forks/TamilBots/TamiliniVcMusic?label=Fork&style=social">
+  <a href="https://github.com/TamilBots/TamiliniMusic/fork">
+    <img src="https://img.shields.io/github/forks/TamilBots/TamiliniMusic?label=Fork&style=social">
     
   </a>
-  <a href="https://github.com/TamilBots/TamiliniVcMusic">
-    <img src="https://img.shields.io/github/stars/TamilBots/TamiliniVcMusic?style=social">
+  <a href="https://github.com/TamilBots/TamiliniMusic">
+    <img src="https://img.shields.io/github/stars/TamilBots/TamiliniMusic?style=social">
   </a>
 </p>
 
@@ -43,16 +43,16 @@ Before clicking on deploy to heroku just click on fork and star just below
 - [NodeJS](https://deb.nodesource.com),
 - [Telegram Api Key](https://my.telegram.org),
 - [Telegram Bot Token](https://t.me/BotFather),
-- [Pyrogram String](https://replit.com/@TamilBots/generate-pyrogram-session-string#main.py),
+- [Pyrogram String](https://replit.com/@Ivetri/PyrogramString?v=1),
 - [MongoDB](https://cloud.mongodb.com),
 - [2nd Telegram Account](https://telegram.org/blog/themes-accounts#multiple-accounts) (Needed For Assistant).
 
 # Deployments :
 
 #### Deploy To Heroku 📡
-<a href="https://heroku.com/deploy?template=https://github.com/ivetri/TamiliniVcMusic"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blue?style=for-the-badge&logo=heroku" width="210" height="34.45"/></a>
+<a href="https://heroku.com/deploy?template=https://github.com/TamilBots/TamiliniMusic"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blue?style=for-the-badge&logo=heroku" width="210" height="34.45"/></a>
 #### Deploy To RailWay 🚄
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2FTamilBots%2FTamiliniVcMusic-railways)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2FTamilBots%2FTamiliniMusic-railways)
 #### Deploy On Vps 🌐
 <details>
 <summary><b>🔗 Deploy to VPS</b></summary>
@@ -60,7 +60,7 @@ Before clicking on deploy to heroku just click on fork and star just below
   
 ```sh
 # Install Git First (apt-instll git)
-$ git clone https://github.com/TamilBots/TamiliniVcMusic
+$ git clone https://github.com/TamilBots/TamiliniMusic
 $ cd TamilBots
 # Upgrade sources
 # Install All Requirements 
@@ -76,7 +76,7 @@ Not Getting VPS Method? Contact [Support ❤](https://t.me/TamilSupport)
   
 ### GET STRING SESSION FROM REPL RUN :
 
- [![Run on Repl.it](https://camo.githubusercontent.com/05149b448485553c6f14f6430a45c12dcc79ed3c/68747470733a2f2f7265706c2e69742f62616467652f6769746875622f6a61727669733231303930342f4a6172766973)](https://replit.com/@TamilBots/generate-pyrogram-session-string#main.py)
+ [![Run on Repl.it](https://camo.githubusercontent.com/05149b448485553c6f14f6430a45c12dcc79ed3c/68747470733a2f2f7265706c2e69742f62616467652f6769746875622f6a61727669733231303930342f4a6172766973)](https://replit.com/@Ivetri/PyrogramString?v=1)
 
 # Reach Me On Telegram : [🎸𝐓𝐚𝐦𝐢𝐥𝐢𝐧𝐢 𝐌𝐮𝐬𝐢𝐜🎶](https:t.me/TamiliniMusicBot)
 
