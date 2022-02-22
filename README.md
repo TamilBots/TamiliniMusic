@@ -97,7 +97,7 @@ Not Getting VPS Method? Contact [Support ❤](https://t.me/TamilSupport)
 - [TheHamkerCat](https://github.com/TheHamkerCat)
 - [Charon Baglari](https://github.com/XCBv021)
 
-##### Spacial credits :
-<details><summary><b>This Repo Is Just A Custom Fork Of Yukki.</b></summary>
-<br>
+<details><summary><b>####Spacial credits :
+This Repo Is Just A Custom Fork Of Yukki.
+<br></summary>
 
