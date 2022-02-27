@@ -85,10 +85,10 @@ Click the below button to watch the video tutorial on deploying
 
 [![Tutorial](https://yt-embed.herokuapp.com/embed?v=zV1bV9w2iYU)](https://www.youtube.com/watch?v=zV1bV9w2iYU)
 
-<a href="https://youtu.be/zV1bV9w2iYU"><img src="https://img.shields.io/badge/How%20To%20Deploy-LATEST-blue.svg?logo=Youtube"></a>
+<a href="https://youtu.be/zV1bV9w2iYU"><img src="https://img.shields.io/badge/How%20To%20Deploy-HEROKU-blue.svg?logo=Youtube"></a>
 <a href="https://youtu.be/zV1bV9w2iYU"><img src="https://img.shields.io/youtube/views/3PgBiFgfx34?style=social">
     
-<a href="https://youtu.be/zV1bV9w2iYU"><img src="https://img.shields.io/badge/How%20To%20Deploy-OLD-blue.svg?logo=Youtube"></a>
+<a href="https://youtu.be/zV1bV9w2iYU"><img src="https://img.shields.io/badge/How%20To%20Deploy-RAILWAY-blue.svg?logo=Youtube"></a>
 <a href="https://youtu.be/zV1bV9w2iYU"><img src="https://img.shields.io/youtube/views/fqhCz-eRkgA?style=social"></a>
 
 # Reach Me On Telegram : [🎸𝐓𝐚𝐦𝐢𝐥𝐢𝐧𝐢 𝐌𝐮𝐬𝐢𝐜🎶](https:t.me/TamiliniMusicBot)
