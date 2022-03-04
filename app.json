@@ -12,7 +12,7 @@
   "telegram-bot",
   "pyrogram"
   ],
-  "repository": "https://github.com/Tamilini/TamiliniMusic",
+  "repository": "https://github.com/kirtimalhotra97/TamiliniMusic",
   "stack": "container",
   "env": {
     "API_ID": {
