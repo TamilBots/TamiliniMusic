@@ -98,10 +98,10 @@ Click the below button to watch the video tutorial on deploying
 ## Made with ❤️ By [TamilBots](https://t.me/TamilBots) 🤖
 
 # Report Any Error or Help Contact :
-<a href="https://t.me/TamilBots"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"> - [Channel 💬](https://t.me/TamilBots),
 
-<a href="https://t.me/TamilSupport"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"> - 
-[Support ❤️](https://t.me/TamilSupport) 
+<a href="http://t.me/TamilBots"><img src="https://smartiblogster.com/wp-content/uploads/2021/03/smartiblogster-iblogster-join-telegram-channel.png" style="width: 300px; height: 100px"></a>
+
+<a href="http://t.me/TamilSupport"><img src="https://www.pngitem.com/pimgs/m/214-2144731_groups-on-telegram-telegram-group-link-png-transparent.png" style="width: 280px; height: 80px"></a>
 
 ##### Credits :
 - [Pyrogram](https://github.com/pyrogram/pyrogram)
