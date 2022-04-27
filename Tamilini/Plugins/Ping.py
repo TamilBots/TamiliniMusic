@@ -6,8 +6,8 @@ import psutil
 from pyrogram import Client, filters
 from pyrogram.types import Message
 
-from Tamilini import BOT_USERNAME, MUSIC_BOT_NAME, app, boottime
-from Tamilini.Utilities.ping import get_readable_time
+from KATARA import BOT_USERNAME, MUSIC_BOT_NAME, app, boottime
+from KATARA.Utilities.ping import get_readable_time
 
 __MODULE__ = "Ping"
 __HELP__ = """
