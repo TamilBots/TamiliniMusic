@@ -1,6 +1,6 @@
 from typing import Dict, List, Union
 
-from Tamilini import db
+from KATARA import db
 
 authdb = db.adminauth
 
